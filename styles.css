@@ -39,3 +39,31 @@ img {
     display: inline-block;
     overflow: hidden;
 }
+
+#song-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#song-list li {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
+#song-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+#song-list a:hover {
+    text-decoration: underline;
+}
+
+.album-cover {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: block;
+}
