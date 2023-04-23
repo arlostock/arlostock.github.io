@@ -29,6 +29,16 @@ section {
 img {
     max-width: 100%;
     height: auto;
+    display: inline-block;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .profile-picture {
